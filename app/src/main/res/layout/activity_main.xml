@@ -6,8 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="검사할 주소를 입력하세요" />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="확인"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="3000dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:text="Anti-Smishing" />
 
 </LinearLayout>
