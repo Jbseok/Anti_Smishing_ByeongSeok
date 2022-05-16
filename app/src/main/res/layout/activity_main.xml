@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="의심가는 url을 입력해 주세요."
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="@android:color/black"
         android:textStyle="bold"
         android:layout_gravity="center"/>
@@ -76,6 +76,12 @@
         android:layout_gravity="center"
         />
 
+    <Button
+        android:id="@+id/btn_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스미싱 알아보기"
+        android:layout_gravity="center"/>
 
 
 </LinearLayout>
